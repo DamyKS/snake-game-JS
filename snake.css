@@ -1,0 +1,119 @@
+#grass {
+    width:  900px;
+    height: 900px;
+    background-color: green; 
+    position:relative ;
+    margin: auto;
+    border: solid black 4px;
+}
+
+#barrier {
+    height: 10px;
+    /*background: red;*/
+}
+
+#snake {
+    color: white;
+    width: 60px;
+    height:60px;
+    background-color:blue;
+    position:absolute ;
+    left: 0px;
+    top: 480px;
+    border-radius: 8px;
+}
+#body {
+    width: 60px;
+    height:60px;
+    background-color:#303030;
+    position:absolute ;
+    left: 0px;
+    top: 480px;    
+}
+
+#food {
+    font-size: 60px;
+    width: 60px;
+    height:60px;
+    border-radius: 30px;
+    background-color:red;
+    position:absolute;
+    left: 480px;
+    top: 300px;
+}
+
+#controls {
+    /*background-color: orange;*/
+    width:584px;;
+    height: 180lx;
+    margin-top: 30px;
+    margin: auto;;
+    display:flex;
+    justify-content: space-around;
+}
+.round_btn {
+    touch-action: manipulation;
+    background: #aaaaaa;
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
+}
+.left_btn {
+    touch-action: manipulation;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height:140px;
+    background-color:black;
+    border-radius: 10px;
+}
+
+.right_btn {
+    touch-action: manipulation;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height:140px;
+    background-color:black;
+    border-radius: 10px;
+}
+
+.up_btn {
+    touch-action: manipulation;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 140px;
+    height:140px;
+    background-color:black;
+    border-radius: 10px;    
+}
+
+.down_btn {
+    touch-action: manipulation;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 140px;
+    height:140px;
+    background-color:black;
+    border-radius: 10px;
+}
+
+#score {
+    /*margin: auto;*/
+    font-size: 40px;
+    color: black;
+    font-weight:bolder;
+}
+
+#scoreText {
+    margin-left: 350px;
+    font-size: 40px;
+    color: black;
+    font-weight:bolder;    
+}
