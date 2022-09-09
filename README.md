@@ -6,4 +6,4 @@ Once the window loads and the game starts,  event handlers are set on each butto
 The setInterval now calls on a function repeatedly and that function calls on other helper functions that are responsible  for  updating  the ppsition of the snake and  food,  checking for collisions  and also checking for changes in the state of the game.
 If another button is clicked,  the previous setInterbal methods are cleared and a new one is created and so on.  
 
-! [demo_pic1](demo_1.jpg)    
+![demo_pic1](demo_1.jpg)    
