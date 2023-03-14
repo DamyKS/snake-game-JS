@@ -9,4 +9,4 @@ If another button is clicked, its event handler is triggered and  the previous s
 **Demo picture**
 ![demo_pic1](demo_1.jpg) 
 
-You can play the game at [Snake Mania JS](https://snake-mania-js.herokuapp.com)    
+You can play the game at [Snake Mania JS](https://damyks.github.io/Snake_Game_Demo/Gamefolder/index.html )    
